@@ -37,6 +37,9 @@ ol, ul {
 	list-style: none;
 }
 
+html {     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);     -webkit-filter: grayscale(100%); }
+
+
 blockquote, q {
 	quotes: none;
 }
