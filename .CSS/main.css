@@ -29,6 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html {     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);     -webkit-filter: grayscale(100%); }
+
 body {
 	line-height: 1;
 }
@@ -36,8 +38,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-
-html {     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);     -webkit-filter: grayscale(100%); }
 
 
 blockquote, q {
