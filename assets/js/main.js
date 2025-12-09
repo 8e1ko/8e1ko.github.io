@@ -33,7 +33,7 @@ function getBingImages(imgUrls) {
 	var $panel = $('#panel');
 	if (isNaN(index) || index == 7) index = 0;
 	else index++;
-	var url = "https://api.xieweiling.top/?imgtype=pc&tags=唯美&type=yktk"
+	var url = "https://api.xieweiling.top/?imgtype=zx-pc&type=yktk"
 	$panel.css("background", "url('" + url + "') center center no-repeat #666");
 	$panel.css("background-size", "cover");
 	sessionStorage.setItem(indexName, index);
